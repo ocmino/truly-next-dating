@@ -11,12 +11,13 @@ function ContactForm() {
   return (
       <form onSubmit={handleSubmit}>
       <label htmlFor="email">
-        Email
       </label>
       <input
         id="email"
         type="email" 
         name="email"
+        className="contact-email"
+        placeholder="Email"
       />
       <ValidationError 
         prefix="Email" 
@@ -26,6 +27,8 @@ function ContactForm() {
       <textarea
         id="message"
         name="message"
+        className="contact-subject"
+        placeholder="Skriv något..."
       />
       <ValidationError 
         prefix="Message" 
@@ -38,7 +41,7 @@ function ContactForm() {
 
       <p>
           <Link href="/loginpage">
-            <a>Gå tillbaka</a>
+            <a className="backToFirstPage">Gå tillbaka</a>
           </Link>
         </p>
     </form>

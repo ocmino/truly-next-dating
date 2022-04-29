@@ -171,6 +171,59 @@ text-align: center;
 color: #FFFFFF;
 }
 
+.backToFirstPage {
+  position: absolute;
+  width: 344px;
+  height: 20px;
+  left: 16px;
+  top: 716px;
+  text-align: center;
+}
+
+.contact-email {
+  position: absolute;
+width: 344px;
+height: 56px;
+left: 16px;
+top: 468px;
+
+background: #FFFFFF;
+border-radius: 15px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-align: center;
+
+/* Text colours / Charcoal secondary */
+color: #6A6A6A;
+}
+
+.contact-subject{
+  position: absolute;
+  width: 344px;
+  height: 56px;
+  left: 16px;
+  top: 540px;
+  
+  background: #FFFFFF;
+  border-radius: 15px;
+  
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  
+  /* Text colours / Charcoal secondary */
+  color: #6A6A6A;
+}
+
 
 
   
