@@ -7,7 +7,12 @@ export default function AboutPage() {
       <div>
         <p><input type="email" class="input-email" placeholder="E-post"></input></p>
         <p><input type="password" class="input-password" placeholder="Lösenord"></input></p>
-        <p><button>Logga in</button></p>
+        <p><button><p>
+          <Link href="/welcome">
+            <a>Logga in</a>
+          </Link>
+        </p></button></p>
+        
         <p>
           <Link href="/contactform">
             <a className="problemlogin">Problem att logga in?</a>
