@@ -6,7 +6,12 @@ import Link from 'next/link';
 function ContactForm() {
   const [state, handleSubmit] = useForm("mzbokbrl");
   if (state.succeeded) {
-      return <p>Tack!</p>;
+      return <p className="contactformthankyou">Tack, ett nytt lösenord har skickat till din epostadress! <p>
+      <Link href="/loginpage">
+        <a className="backToFirstPage">Gå tillbaka</a>
+      </Link>
+    </p></p>;
+     
   }
   return (
       <form onSubmit={handleSubmit}>
@@ -24,12 +29,12 @@ function ContactForm() {
         field="email"
         errors={state.errors}
       />
-      <textarea
+      {/* <input
         id="message"
         name="message"
         className="contact-subject"
         placeholder="Skriv något..."
-      />
+      /> */}
       <ValidationError 
         prefix="Message" 
         field="message"
