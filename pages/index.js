@@ -1,18 +1,16 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Link from 'next/link'
-import Layout from './Layout'
+import Link from "next/link";
 
-
-
-function Home({children}) {
+export default function IndexPage() {
   return (
-  
-    
-    <Layout></Layout>
-
-  )
+    <div className="page hello">
+      <div>
+        <p>Välkommen till truly</p>
+        <p>
+          <Link href="/loginpage">
+            <a>Logga in</a>
+          </Link>
+        </p>
+      </div>
+    </div>
+  );
 }
-
-export default Home
