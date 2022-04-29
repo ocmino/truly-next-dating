@@ -5,12 +5,12 @@ export default function AboutPage() {
     <div className="page about">
       <h1>truly</h1>
       <div>
-        <p><input placeholder="E-post"></input></p>
-        <p><input placeholder="Lösenord"></input></p>
+        <p><input class="input-email " placeholder="E-post"></input></p>
+        <p><input class="input-password" placeholder="Lösenord"></input></p>
         <p><button>Logga in</button></p>
         <p>
           <Link href="/contactform">
-            <a>Problem att logga in?</a>
+            <a className="problemlogin">Problem att logga in?</a>
           </Link>
         </p>
       </div>

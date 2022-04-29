@@ -6,12 +6,12 @@ import Link from 'next/link';
 function ContactForm() {
   const [state, handleSubmit] = useForm("mzbokbrl");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return <p>Tack!</p>;
   }
   return (
       <form onSubmit={handleSubmit}>
       <label htmlFor="email">
-        Email Address
+        Email
       </label>
       <input
         id="email"

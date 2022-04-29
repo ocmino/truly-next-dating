@@ -80,4 +80,97 @@ body {
       #9d50bb
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
+
+button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 84px;
+
+position: absolute;
+width: 344px;
+height: 56px;
+left: 16px;
+top: 644px;
+
+background: #9234E4;
+border-radius: 15px;
+border: transparent;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.input-email {
+    position: absolute;
+width: 344px;
+height: 56px;
+left: 16px;
+top: 468px;
+
+background: #FFFFFF;
+border-radius: 15px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-align: center;
+
+/* Text colours / Charcoal secondary */
+color: #6A6A6A;
+  }
+
+.input-password {
+    position: absolute;
+width: 344px;
+height: 56px;
+left: 16px;
+top: 540px;
+
+background: #FFFFFF;
+border-radius: 15px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-align: center;
+
+/* Text colours / Charcoal secondary */
+color: #6A6A6A;
+}
+
+.problemlogin{
+    position: absolute;
+width: 344px;
+height: 20px;
+left: 16px;
+top: 716px;
+
+/* Body / B2-Bold */
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+
   
