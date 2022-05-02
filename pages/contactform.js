@@ -3,6 +3,11 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import Link from 'next/link';
+
+
+
+
+
 function ContactForm() {
   const [state, handleSubmit] = useForm("mzbokbrl");
   if (state.succeeded) {
@@ -14,9 +19,13 @@ function ContactForm() {
      
   }
   return (
+    
+    
       <form onSubmit={handleSubmit}>
       <label htmlFor="email">
       </label>
+      
+      <p className="contactText">Skriv in din mailadress så skickar vi ett nytt lösenord till dig.</p>
       <input
         id="email"
         type="email" 
@@ -45,7 +54,7 @@ function ContactForm() {
       </button>
 
       <p>
-          <Link href="/welcome">
+          <Link href="/loginpage">
             <a className="backToFirstPage">←</a>
           </Link>
         </p>

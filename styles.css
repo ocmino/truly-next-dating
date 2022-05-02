@@ -181,6 +181,7 @@ color: #FFFFFF;
   top: 716px;
   text-align: center;
   color: black;
+  font-size: 25px;
 }
 
 .contact-email {
@@ -244,6 +245,36 @@ color: #6A6A6A;
   line-height: 24px;
   /* identical to box height, or 150% */
   text-align: center;
+}
+
+.contactText {
+  position: static;
+width: 344px;
+height: 68px;
+left: 0px;
+top: 0px;
+
+/* Body/B1 - Medium */
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 56px 0px;
+margin-top: 450px;
+margin-left: 14px;
 }
 
 .welcomepage {
