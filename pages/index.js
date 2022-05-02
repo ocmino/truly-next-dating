@@ -1,16 +1,33 @@
 import Link from "next/link";
+import Image from 'next/image'
+import logo from '../public/static/truly-logo.png'
 
-export default function IndexPage() {
+export default function AboutPage() {
   return (
-    <div className="page hello">
+    <div className="page about">
       <div>
-        <p>Välkommen till truly</p>
-        <p>
-          <Link href="/loginpage">
-            <a>Logga in</a>
-          </Link>
-        </p>
+      {/* logo */}
+      <h1 className="trulyLogin"><Image src={logo} width={50} height={50}/> truly</h1>
       </div>
+      
+      <div>
+      <button className="indexButtonLogin"><p>
+          <Link href="/loginpage">
+            <a className="">Logga in</a>
+          </Link>
+        </p></button>
+
+        <button className="indexButtonCreateAccount">
+          <Link href="/createAccount">
+            <p>Skapa konto</p>
+          </Link>
+        </button>
+
+      
+
+ 
+      </div>
+      
     </div>
   );
 }

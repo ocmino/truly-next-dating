@@ -24,6 +24,8 @@ export default function AboutPage() {
             <a className="problemlogin">Problem att logga in?</a>
           </Link>
         </p>
+
+        
         
       </div>
     </div>
