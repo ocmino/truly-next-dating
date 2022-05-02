@@ -1,11 +1,13 @@
 import Link from "next/link";
+import Image from 'next/image'
+import logo from '../public/static/truly-logo.png'
 
 export default function AboutPage() {
   return (
     <div className="page about">
       <div>
       {/* logo */}
-      <h1 className="trulyLogin">truly</h1>
+      <h1 className="trulyLogin"><Image src={logo} width={50} height={50}/> truly</h1>
       </div>
       
       <div>
