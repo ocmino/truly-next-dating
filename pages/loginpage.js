@@ -3,13 +3,17 @@ import Link from "next/link";
 export default function AboutPage() {
   return (
     <div className="page about">
-      <h1>truly</h1>
+      <div>
+      {/* logo */}
+      <h1 className="trulyLogin">truly</h1>
+      </div>
+      
       <div>
         <p><input type="email" class="input-email" placeholder="E-post"></input></p>
         <p><input type="password" class="input-password" placeholder="Lösenord"></input></p>
-        <p><button><p>
+        <p><button className="loginButton"><p>
           <Link href="/welcome">
-            <a>Logga in</a>
+            <a className="">Logga in</a>
           </Link>
         </p></button></p>
         

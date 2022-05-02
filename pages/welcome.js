@@ -1,13 +1,18 @@
 import Link from "next/link";
+import Image from 'next/image'
+import logo from '../public/static/logo.png'
 
 export default function Welcome() {
   return (
-    <div className="page about">
+    <div >
       <div className="welcomepage">
-        <h1>Välkomment till truly</h1>
+      <Image src={logo} alt="Picture of the author"/>
+        <h1 className="textCenter">Välkomment till truly</h1>
         <br></br>
         <p>För att interagera med våra användare behöver du först lära dig mer om dig själv genom att göra ett test.
+            <br></br><br></br>
             Testet är baserat på forskning om anknytningsteori och mäter den ambivalenta samt undvikande dimensionen. Läs mer här.
+            <br></br><br></br>
             Testet tar ca 5 min att göra.
         </p>
         <p><button><p>
@@ -17,8 +22,8 @@ export default function Welcome() {
         </p></button></p>
       </div>
       <p>
-          <Link href="/loginpage">
-            <a className="backToFirstPage">Gå tillbaka</a>
+          <Link href="/public/static/logo.png">
+            <a className="backToFirstPage">←</a>
           </Link>
         </p>
     </div>
