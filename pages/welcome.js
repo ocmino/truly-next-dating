@@ -6,7 +6,9 @@ export default function Welcome() {
   return (
     <div >
       <div className="welcomepage">
-      <Image src={logo} alt="Picture of the author"/>
+        <div className="textCenter">
+        <Image src={logo} alt="Picture of the author" width={50} height={50}/>
+        </div>
         <h1 className="textCenter">Välkomment till truly</h1>
         <br></br>
         <p>För att interagera med våra användare behöver du först lära dig mer om dig själv genom att göra ett test.
