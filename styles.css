@@ -285,6 +285,70 @@ a {
   text-decoration: none;
   color: white;
 }
+.testPages {
+
+  
+  /* Body/B1 - Medium */
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 1em;
+  margin-top: 80%;
+}
+
+.testButtonLayout{
+  padding: 4px 8px;
+  float: left;
+  position: static;
+  width: 35px;
+  height: 35px;
+  left: 35%;
+  top: 0px;
+  
+  background: #C593F1;
+  border-radius: 10px;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+ 
+}
+.testButtonLayout:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.testButtonLayout button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.testButtonLayout button:hover {
+  background-color: #3e8e41;
+}
+
+
+
+
+
+
 
 
 

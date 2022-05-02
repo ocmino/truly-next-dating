@@ -23,11 +23,13 @@ export default function Welcome() {
           </Link>
         </p></button></p>
       </div>
+      
       <p>
-          <Link href="/public/static/logo.png">
+          <Link href="/loginpage">
             <a className="backToFirstPage">←</a>
           </Link>
         </p>
+        
     </div>
   );
 }

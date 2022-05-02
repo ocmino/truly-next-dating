@@ -45,8 +45,8 @@ function ContactForm() {
       </button>
 
       <p>
-          <Link href="/loginpage">
-            <a className="backToFirstPage">Gå tillbaka</a>
+          <Link href="/welcome">
+            <a className="backToFirstPage">←</a>
           </Link>
         </p>
     </form>
