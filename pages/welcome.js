@@ -15,7 +15,7 @@ export default function Welcome() {
             <br></br><br></br>
             Testet är baserat på forskning om anknytningsteori och mäter den ambivalenta samt undvikande dimensionen. Läs mer här.
             <br></br><br></br>
-            Testet tar ca 5 min att göra.
+            Testet tar ca 5 min att göra. Test
         </p>
         <p><button><p>
           <Link href="/test">
