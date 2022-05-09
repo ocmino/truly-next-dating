@@ -42,7 +42,7 @@ export default function Questionaire() {
         </div>
       </div>
 
-      <div className="flex flex-col w-full">
+      <div className="flex flex-col w-fullgit pu">
         {questions[currentQuestion].answerOptions.map
       ((answer, index) => (
           <div 
