@@ -19,9 +19,6 @@ export default function Test() {
           <button className="testButtonLayout">6</button>
           <button className="testButtonLayout">7</button>
       </div>
-
-
-      
     
       <div>
       <p><button><p>

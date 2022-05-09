@@ -18,7 +18,7 @@ export default function Welcome() {
             Testet tar ca 5 min att göra.
         </p>
         <p><button><p>
-          <Link href="/test">
+          <Link href="/questions">
             <a>Gör testet</a>
           </Link>
         </p></button></p>
