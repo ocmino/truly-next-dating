@@ -343,14 +343,44 @@ a {
   margin-top: 80%;
 }
 
+.questionText{
+  margin-top: 80%;
+  text-align: center;
+  
+
+}
+.questionText2{
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+input{
+ appearance: none;
+}
+
+.testLayout{
+  margin-top: 10%;
+  position: absolute;
+}
+
 .testButtonLayout{
+
   padding: 4px 8px;
   float: left;
   position: static;
   width: 20px;
   height: 25px;
   left: 35%;
-  top: 0px;
+  
   
   background: #C593F1;
   border-radius: 10px;

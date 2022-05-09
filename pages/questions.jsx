@@ -33,16 +33,16 @@ export default function Questionaire() {
 
     <div className="flex flex-col w-screen px-5 h-screen bg-[#1A1A1A] justify-center items-center">
 
-      <div className="flex flex-col items-start w-full">
+      <div className="questionText">
         <h4 className="mt-10 text-xl text-white/60">
           Fråga {currentQuestion + 1} av {questions.length}
         </h4>
-        <div className="mt-4 text-2xl text-white">
+        <div className="questionText2">
           {questions[currentQuestion].question}
         </div>
       </div>
 
-      <div className="flex flex-col w-full">
+      <div className="testLayout">
         {questions[currentQuestion].answerOptions.map
       ((answer, index) => (
           <div 
