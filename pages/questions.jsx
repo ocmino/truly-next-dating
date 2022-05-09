@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useState } from "react";
 import questions from "../questions.json";
+import Link from "next/link";
 
 
 
@@ -43,7 +44,7 @@ export default function Questionaire() {
           </div>
         ))}
       </div>
-
+      
       <div className="flex justify-between w-full mt-4 text-white">
         <button
           onClick={handlePrevious}
@@ -56,6 +57,13 @@ export default function Questionaire() {
           Fortsätt
         </button>
       </div>
+
+      <p>
+          <Link href="">
+            <a onClick={handlePrevious} className="backToFirstPage">←</a>
+          </Link>
+        </p>
+      
 
     </div>
   )
