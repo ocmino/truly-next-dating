@@ -374,14 +374,12 @@ a {
 }
 
 .testButtonLayout{
-
   padding: 8px 8px;
   float: left;
   position: static;
   width: 20px;
   height: 20px;
   left: 35%;
-  
   
   background: #C593F1;
   border-radius: 10px;
@@ -391,8 +389,8 @@ a {
   order: 0;
   
   margin: 8px;
- 
 }
+
 .testButtonLayout:after {
   content: "";
   clear: both;
@@ -400,7 +398,7 @@ a {
 }
 
 .testNumber{
-  margin-top: -15px;
+  margin-top: -18px;
   margin-left: 6px;
 }
 
