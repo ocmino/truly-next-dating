@@ -12,7 +12,7 @@
       ]
     },
     {
-      "question": "Jag älskar glass",
+      "question": "Jag tycker det är förhållandevis lätt att komma nära min partner.",
       "answerOptions": [
         { "answer": "1" },
         { "answer": "2" },
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "question": "Jag föredrar att inte visa min partner vad jag känner innerst inne.   ",
+      "question": "Jag diskuterar ofta mina problem och angelägenheter med min partner",
       "answerOptions": [
         { "answer": "1" },
         { "answer": "2" },
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "question": "Choklad är också gott",
+      "question": "Jag tycker det är lätt att vara beroende av min partner",
       "answerOptions": [
         { "answer": "1" },
         { "answer": "2" },
@@ -48,7 +48,7 @@
       ]
     },
     {
-        "question": "Jag förstår Next jättebra",
+        "question": "Det är till stor hjälp att jag kan vända mig till min partner när jag behöver det",
         "answerOptions": [
           { "answer": "1" },
           { "answer": "2" },
