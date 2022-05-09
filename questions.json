@@ -1,0 +1,63 @@
+[
+    {
+      "question": "Jag tycker det känns tryggt att dela mina privata tankar och känslor med min partner.",
+      "answerOptions": [
+        { "answer": "1" },
+        { "answer": "2" },
+        { "answer": "3", "isCorrect": true },
+        { "answer": "4 " },
+        { "answer": "5" },
+        { "answer": "6" },
+        { "answer": "7" }
+      ]
+    },
+    {
+      "question": "Jag älskar glass",
+      "answerOptions": [
+        { "answer": "1" },
+        { "answer": "2" },
+        { "answer": "3", "isCorrect": true },
+        { "answer": "4 " },
+        { "answer": "5" },
+        { "answer": "6" },
+        { "answer": "7" }
+      ]
+    },
+    {
+      "question": "Jag föredrar att inte visa min partner vad jag känner innerst inne.   ",
+      "answerOptions": [
+        { "answer": "1" },
+        { "answer": "2" },
+        { "answer": "3", "isCorrect": true },
+        { "answer": "4 " },
+        { "answer": "5" },
+        { "answer": "6" },
+        { "answer": "7" }
+      ]
+    },
+    {
+      "question": "Choklad är också gott",
+      "answerOptions": [
+        { "answer": "1" },
+        { "answer": "2" },
+        { "answer": "3", "isCorrect": true },
+        { "answer": "4 " },
+        { "answer": "5" },
+        { "answer": "6" },
+        { "answer": "7" }
+      ]
+    },
+    {
+        "question": "Jag förstår Next jättebra",
+        "answerOptions": [
+          { "answer": "1" },
+          { "answer": "2" },
+          { "answer": "3", "isCorrect": true },
+          { "answer": "4 " },
+          { "answer": "5" },
+          { "answer": "6" },
+          { "answer": "7" }
+        ]
+      }
+  ]
+  
