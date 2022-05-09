@@ -346,9 +346,8 @@ a {
 .questionText{
   margin-top: 80%;
   text-align: center;
-  
-
 }
+
 .questionText2{
   font-family: 'Helvetica Neue';
   font-style: normal;
@@ -357,15 +356,17 @@ a {
   line-height: 24px;
   /* or 150% */
   display: flex;
-  align-items: center;
+  
   text-align: center;
 
   color: #000000;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-input{
+/*  input{
  appearance: none;
-}
+}*/
 
 .testLayout{
   margin-top: 10%;
@@ -374,11 +375,11 @@ input{
 
 .testButtonLayout{
 
-  padding: 4px 8px;
+  padding: 8px 8px;
   float: left;
   position: static;
   width: 20px;
-  height: 25px;
+  height: 20px;
   left: 35%;
   
   
@@ -388,14 +389,19 @@ input{
   /* Inside auto layout */
   flex: none;
   order: 0;
-  flex-grow: 0;
-  margin: 0px 8px;
+  
+  margin: 8px;
  
 }
 .testButtonLayout:after {
   content: "";
   clear: both;
   display: table;
+}
+
+.testNumber{
+  margin-top: -15px;
+  margin-left: 6px;
 }
 
 .testButtonLayout button:not(:last-child) {

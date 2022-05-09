@@ -57,7 +57,7 @@ export default function Questionaire() {
             checked={
               answer.answer === selectedOptions[currentQuestion]?.answerByUser
             }/>
-            <p className="ml-6 text-white">{answer.answer}</p>
+            <p className="testNumber">{answer.answer}</p>
           </div>
         ))}
       </div>
