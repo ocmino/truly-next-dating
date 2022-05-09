@@ -6,6 +6,15 @@ import Link from "next/link";
 
 
 export default function Questionaire() {
+
+  const [selectedOptions, setSelectedOptions] = useState([]);
+
+  const handleAnswerOption = (answer) => {
+    setSelectedOptions([
+      (selectedOptions[currentQuestion] = { answerByUser: answer }),
+    ]);
+    setSelectedOptions([...selectedOptions]);
+  };
   
   
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -36,10 +45,18 @@ export default function Questionaire() {
       <div className="flex flex-col w-full">
         {questions[currentQuestion].answerOptions.map
       ((answer, index) => (
-          <div
+          <div 
             key={index}
-            className="flex items-center w-full py-4 pl-5 m-2 ml-0 space-x-2 border-2 cursor-pointer bg-white/5 border-white/10 rounded-xl">
-            <input type="radio" className="w-6 h-6 bg-black" />
+            className="testButtonLayout"
+            onClick={(e) => handleAnswerOption(answer.answer)}>
+            <input type="radio" 
+            className="w-6 h-6 bg-black" 
+            name={answer.answer}
+            value={answer.answer}
+            onChange={(e) => handleAnswerOption(answer.answer)}
+            checked={
+              answer.answer === selectedOptions[currentQuestion]?.answerByUser
+            }/>
             <p className="ml-6 text-white">{answer.answer}</p>
           </div>
         ))}
