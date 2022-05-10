@@ -27,6 +27,15 @@ export default function Questionaire() {
     const nextQues = currentQuestion + 1;
     nextQues < questions.length && setCurrentQuestion(nextQues);
   };
+
+  
+  function changeclassstyle() {
+    var c = document.getElementsByClassName("testLayout");
+    for (var i=0; i<c.length; i++) {
+      c[i].style.color = "green";
+    } 
+  }
+
   
   
   return (
@@ -45,19 +54,23 @@ export default function Questionaire() {
       <div className="testLayout">
         {questions[currentQuestion].answerOptions.map
       ((answer, index) => (
-          <div 
+          <div
+          tabindex="1"
             key={index}
+            id="testButtonLayout"
             className="testButtonLayout"
             onClick={(e) => handleAnswerOption(answer.answer)}>
+
             <input type="radio" 
-            className="w-6 h-6 bg-black" 
             name={answer.answer}
             value={answer.answer}
             onChange={(e) => handleAnswerOption(answer.answer)}
             checked={
               answer.answer === selectedOptions[currentQuestion]?.answerByUser
             }/>
+
             <p className="testNumber">{answer.answer}</p>
+
           </div>
         ))}
       </div>

@@ -364,9 +364,9 @@ a {
   margin-right: 10px;
 }
 
-/*  input{
+ input{
  appearance: none;
-} */
+}
 
 .testLayout{
   margin-top: 10%;
@@ -384,6 +384,7 @@ a {
   background: #C593F1;
   border-radius: 10px;
   
+  
   /* Inside auto layout */
   flex: none;
   order: 0;
@@ -395,6 +396,11 @@ a {
   content: "";
   clear: both;
   display: table;
+  background: yellow;
+}
+
+.testButtonLayout:focus {
+  background: #9234E4;
 }
 
 .testNumber{
