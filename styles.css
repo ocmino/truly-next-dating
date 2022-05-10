@@ -366,7 +366,7 @@ a {
 
 /*  input{
  appearance: none;
-}*/
+} */
 
 .testLayout{
   margin-top: 10%;
@@ -444,6 +444,12 @@ a {
   flex-grow: 0;
   margin:0px;
   margin-top: 90%;
+}
+
+.readMoreLink {
+  text-decoration: underline;
+  color: black;
+  color: #0072ff;
 }
 
 

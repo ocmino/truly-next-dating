@@ -13,7 +13,9 @@ export default function Welcome() {
         <br></br>
         <p>För att interagera med våra användare behöver du först lära dig mer om dig själv genom att göra ett test.
             <br></br><br></br>
-            Testet är baserat på forskning om anknytningsteori och mäter den ambivalenta samt undvikande dimensionen. Läs mer här.
+            Testet är baserat på forskning om anknytningsteori och mäter den ambivalenta samt undvikande dimensionen. <Link href="https://en.wikipedia.org/wiki/Attachment_theory">
+            <a className="readMoreLink">Läs mer här.</a>
+          </Link>
             <br></br><br></br>
             Testet tar ca 5 min att göra.
         </p>
