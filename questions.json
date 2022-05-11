@@ -2,61 +2,61 @@
     {
       "question": "Jag tycker det känns tryggt att dela mina privata tankar och känslor med min partner.",
       "answerOptions": [
-        { "answer": "1" },
-        { "answer": "2" },
-        { "answer": "3", "isCorrect": true },
-        { "answer": "4 " },
-        { "answer": "5" },
-        { "answer": "6" },
-        { "answer": "7" }
+        { "answer": "1", "isCorrect": 7.00 },
+        { "answer": "2", "isCorrect": 6.00 },
+        { "answer": "3", "isCorrect": 5.00 },
+        { "answer": "4 ", "isCorrect": 4.00 },
+        { "answer": "5", "isCorrect": 3.00 },
+        { "answer": "6", "isCorrect": 2.00 },
+        { "answer": "7", "isCorrect": 1.00 }
       ]
     },
     {
       "question": "Jag tycker det är förhållandevis lätt att komma nära min partner.",
       "answerOptions": [
-        { "answer": "1" },
-        { "answer": "2" },
-        { "answer": "3", "isCorrect": true },
-        { "answer": "4 " },
-        { "answer": "5" },
-        { "answer": "6" },
-        { "answer": "7" }
+        { "answer": "1", "isCorrect": 7.00 },
+        { "answer": "2", "isCorrect": 6.00 },
+        { "answer": "3", "isCorrect": 5.00 },
+        { "answer": "4 ", "isCorrect": 4.00 },
+        { "answer": "5", "isCorrect": 3.00 },
+        { "answer": "6", "isCorrect": 2.00 },
+        { "answer": "7", "isCorrect": 1.00 }
       ]
     },
     {
       "question": "Jag diskuterar ofta mina problem och angelägenheter med min partner",
       "answerOptions": [
-        { "answer": "1" },
-        { "answer": "2" },
-        { "answer": "3", "isCorrect": true },
-        { "answer": "4 " },
-        { "answer": "5" },
-        { "answer": "6" },
-        { "answer": "7" }
+        { "answer": "1", "isCorrect": 7.00 },
+        { "answer": "2", "isCorrect": 6.00 },
+        { "answer": "3", "isCorrect": 5.00 },
+        { "answer": "4 ", "isCorrect": 4.00 },
+        { "answer": "5", "isCorrect": 3.00 },
+        { "answer": "6", "isCorrect": 2.00 },
+        { "answer": "7", "isCorrect": 1.00 }
       ]
     },
     {
       "question": "Jag tycker det är lätt att vara beroende av min partner",
       "answerOptions": [
-        { "answer": "1" },
-        { "answer": "2" },
-        { "answer": "3", "isCorrect": true },
-        { "answer": "4 " },
-        { "answer": "5" },
-        { "answer": "6" },
-        { "answer": "7" }
+        { "answer": "1", "isCorrect": 7.00 },
+        { "answer": "2", "isCorrect": 6.00 },
+        { "answer": "3", "isCorrect": 5.00 },
+        { "answer": "4 ", "isCorrect": 4.00 },
+        { "answer": "5", "isCorrect": 3.00 },
+        { "answer": "6", "isCorrect": 2.00 },
+        { "answer": "7", "isCorrect": 1.00 }
       ]
     },
     {
         "question": "Det är till stor hjälp att jag kan vända mig till min partner när jag behöver det",
         "answerOptions": [
-          { "answer": "1" },
-          { "answer": "2" },
-          { "answer": "3", "isCorrect": true },
-          { "answer": "4 " },
-          { "answer": "5" },
-          { "answer": "6" },
-          { "answer": "7" }
+          { "answer": "1", "isCorrect": 7.00 },
+        { "answer": "2", "isCorrect": 6.00 },
+        { "answer": "3", "isCorrect": 5.00 },
+        { "answer": "4 ", "isCorrect": 4.00 },
+        { "answer": "5", "isCorrect": 3.00 },
+        { "answer": "6", "isCorrect": 2.00 },
+        { "answer": "7", "isCorrect": 1.00 }
         ]
       }
   ]

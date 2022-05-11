@@ -1,4 +1,4 @@
-import Head from "next/head";
+
 import { useState } from "react";
 import questions from "../questions.json";
 import Link from "next/link";
@@ -11,13 +11,14 @@ export default function Questionaire() {
   const [showScore, setShowScore] = useState(false);
 
   const handleSubmitButton = () => {
+    let s = 0;
     let newScore = 0;
     for (let i = 0; i < questions.length; i++) {
       questions[i].answerOptions.map(
         (answer) =>
-          answer.isCorrect &&
           answer.answer === selectedOptions[i]?.answerByUser &&
-          (newScore += 1)
+          (s += answer.isCorrect) &&
+          (newScore = s / questions.length)
       );
     }
     setScore(newScore);
@@ -60,9 +61,11 @@ export default function Questionaire() {
     <div className="flex flex-col w-screen px-5 h-screen bg-[#1A1A1A] justify-center items-center">
 
       {showScore ? (
-        <h1 className="text-3xl font-semibold text-center text-white">
-          You scored {score} out of {questions.length}
+        <h1 className="questionText">
+          Ditt värde är {score} av 7
         </h1>
+
+        
       ) : (
         <>
 
