@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import questions from "../questions.json";
 import Link from "next/link";
+import RelationalType from "./relationaltype";
 
 
 
@@ -57,17 +58,18 @@ export default function Questionaire() {
 
   return (
 
-    <div className="flex flex-col w-screen px-5 h-screen bg-[#1A1A1A] justify-center items-center">
+    <div>
 
       {showScore ? (
-        <h1 className="text-3xl font-semibold text-center text-white">
+        <h1>
           You scored {score} out of {questions.length}
+          <RelationalType></RelationalType>
         </h1>
       ) : (
         <>
 
           <div className="questionText">
-            <h4 className="mt-10 text-xl text-white/60">
+            <h4>
               Fråga {currentQuestion + 1} av {questions.length}
             </h4>
             <div className="questionText2">
@@ -79,7 +81,7 @@ export default function Questionaire() {
             {questions[currentQuestion].answerOptions.map
               ((answer, index) => (
                 <div
-                  tabindex="1"
+                  tabIndex="1"
                   key={index}
                   id="testButtonLayout"
                   className="testButtonLayout"
