@@ -402,7 +402,7 @@ a {
 .testButtonLayout:focus {
   background: #9234E4;
   border: 1px solid black;/* this is for button border*/
-  box-shadow: 1px 1px;
+  box-shadow: 0.5px 0.5px;
 }
 
 .testNumber{
@@ -459,6 +459,9 @@ a {
   color: black;
   color: #0072ff;
 }
+
+
+
 
 
 

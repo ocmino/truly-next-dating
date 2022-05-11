@@ -28,6 +28,23 @@ export default function Questionaire() {
     nextQues < questions.length && setCurrentQuestion(nextQues);
   };
 
+  const [score, setScore] = useState(0);
+  const [showScore, setShowScore] = useState(false);
+
+  const handleSubmitButton = () => {
+  let newScore = 0;
+  for (let i = 0; i < questions.length; i++) {
+    questions[i].answerOptions.map(
+      (answer) =>
+        answer.isCorrect &&
+        answer.answer === selectedOptions[i]?.answerByUser &&
+        (newScore += 1)
+    );
+  }
+  setScore(newScore);
+  setShowScore(true);
+};
+
   
   function changeclassstyle() {
     var c = document.getElementsByClassName("testLayout");
@@ -51,11 +68,12 @@ export default function Questionaire() {
         </div>
       </div>
 
+
       <div className="testLayout">
         {questions[currentQuestion].answerOptions.map
       ((answer, index) => (
           <div
-          tabindex="1"
+          tabIndex="1"
             key={index}
             id="testButtonLayout"
             className="testButtonLayout"
@@ -86,7 +104,16 @@ export default function Questionaire() {
           className="w-[49%] py-3 bg-indigo-600 rounded-lg">
           Fortsätt
         </button>
+
+        <button
+        onClick={currentQuestion + 1 === questions.length ? handleSubmitButton : handleNext}>
+        {currentQuestion + 1 === questions.length ? "Se resultat" : "Next"}
+        </button>
+
+  
       </div>
+
+      
 
       <p>
           <Link href="">
