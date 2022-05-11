@@ -46,7 +46,6 @@ export default function Questionaire() {
     nextQues < questions.length && setCurrentQuestion(nextQues);
   };
 
-
   function changeclassstyle() {
     var c = document.getElementsByClassName("testLayout");
     for (var i = 0; i < c.length; i++) {
@@ -118,6 +117,8 @@ export default function Questionaire() {
         </>
       )
       }
+
+      
 
       <p>
         <Link href="">
