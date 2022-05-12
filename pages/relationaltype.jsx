@@ -10,13 +10,7 @@ export default function RelationalType() {
 
     const [score] = useState(0);
    
-
     return (
-      
         <p>You scored {score} out of {questions.length}</p>
-        
-        
     )
-        
-    
 }
