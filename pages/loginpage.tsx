@@ -1,8 +1,28 @@
 import Link from "next/link";
 import Image from 'next/image'
 import logo from '../public/static/truly-logo.png'
+import React, { useState } from "react";
 
 export default function AboutPage() {
+
+
+const Login = () => {
+  const [data, setData] = useState({
+    email: '',
+    password: '',
+  })
+
+  const handleLogin = (e: any) => {
+    e.preventDefault()
+    console.log(data)
+  }
+}
+
+
+
+
+
+
   return (
     <div className="page about">
       <div>
@@ -11,8 +31,8 @@ export default function AboutPage() {
       </div>
       
       <div>
-        <p><input type="email" class="input-email" placeholder="E-post"></input></p>
-        <p><input type="password" class="input-password" placeholder="Lösenord"></input></p>
+        <p><input type="email" className="input-email" placeholder="E-post"></input></p>
+        <p><input type="password" className="input-password" placeholder="Lösenord"></input></p>
         <p><button className="loginButton"><p>
           <Link href="/welcome">
             <a className="">Logga in</a>
@@ -23,11 +43,9 @@ export default function AboutPage() {
           <Link href="/contactform">
             <a className="problemlogin">Problem att logga in?</a>
           </Link>
-        </p>
-
-        
-        
+        </p> 
       </div>
+      
     </div>
   );
 }
