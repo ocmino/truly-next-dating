@@ -120,9 +120,18 @@ export default function Questionaire() {
               {currentQuestion + 1 === questions.length ? "Se resultat" : "Fortsätt"}
             </button>
           </div>
+          <div className="textChoice">
+            <div className="leftChoice">
+              instämmer helt 
+              </div>
+            <div className="rightChoice">
+              instämmer inte alls
+              </div>
+          </div>
         </>
       )
       }
+      
 
       <p>
         <Link href="">

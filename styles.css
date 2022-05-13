@@ -348,6 +348,25 @@ a {
   text-align: center;
 }
 
+.textChoice{
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10x;
+  line-height: 15px;
+  display: flex;
+  margin-top: 23%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.lefthChoice{
+  text-align: left;
+}
+.rightChoice{
+  flex-grow: 1;
+  text-align: right;
+}
+
 .questionText2{
   font-family: 'Helvetica Neue';
   font-style: normal;
