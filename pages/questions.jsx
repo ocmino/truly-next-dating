@@ -122,10 +122,10 @@ export default function Questionaire() {
           </div>
           <div className="textChoice">
             <div className="leftChoice">
-              instämmer helt 
+              instämmer inte alls
               </div>
             <div className="rightChoice">
-              instämmer inte alls
+              instämmer helt
               </div>
           </div>
         </>
