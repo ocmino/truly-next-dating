@@ -477,6 +477,102 @@ a {
   color: #0072ff;
 }
 
+.relationalfirstText{
+
+position: absolute;
+width: 344px;
+height: 84px;
+left: 16px;
+top: 144px;
+
+/* Heading Mobile / H3 */
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 32px;
+/* or 123% */
+
+text-align: center;
+
+color: #000000;
+
+}
+.undvikande{
+  align-items: center;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 32px;
+margin-top: 55%;
+text-align: center;
+
+  color: #AA33B2;
+}
+
+
+.scoreReveal{
+ text-align: center;
+ position: absolute;
+ width: 344px;
+ height: 120px;
+ left: 16px;
+ top: 260px;
+
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+color: #000000;
+}
+
+.informationText{
+  position: absolute;
+width: 344px;
+height: 120px;
+left: 16px;
+top: 300px;
+
+/* Heading Mobile/Body/Body 1 Bold */
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #000000;
+}
+
+.descriptiveText{
+  position: absolute;
+width: 344px;
+height: 120px;
+left: 16px;
+top: 404px;
+
+/* Heading Mobile/Body/Body 1 Bold */
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #000000;
+
+}
+
 
 
 
