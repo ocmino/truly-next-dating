@@ -9,16 +9,27 @@ export default function Welcome() {
         <div className="textCenter">
         <Image src={logo} alt="Picture of the author" width={50} height={50}/>
         </div>
-        <h1 className="textCenter">Välkommen till truly</h1>
-        <br></br>
-        <p>För att interagera med våra användare behöver du först lära dig mer om dig själv genom att göra ett test.
+        <h1 className="welcomeheader">Välkommen till truly</h1>
+        
+        <p>Innan du börjar interagera med våra användare behöver du genomföra ett anknytningstest för att lära dig mer om din anknytning och hur det påverkar dina beteenden, tankar och känslor.
             <br></br><br></br>
-            Testet är baserat på forskning om anknytningsteori och mäter den ambivalenta samt undvikande dimensionen. <Link href="https://en.wikipedia.org/wiki/Attachment_theory">
-            <a className="readMoreLink">Läs mer här.</a>
-          </Link>
+            Testet är baserat på forskning om anknytningsteori. 
             <br></br><br></br>
-            Testet tar ca 5 min att göra.
+            
         </p>
+        <div className="trulylist">
+          <p><b>Truly</b> hjälper dig att:</p>
+            <ul>
+              <li>Förstå dina mönster och bli tryggare i ditt dejtande</li>
+              
+              <li>Få kunskap om hur anknytning påverkar ditt dejtingliv</li>
+              
+              <li>Få tillgång till verktyg som hjälper dig att känna dig trygg i din anknytning</li>
+            </ul>
+        </div>
+      <br></br>
+        <p>Testet tar ca <b>5 min</b> att göra.</p>
+        
         <p><button><p>
           <Link href="/questions">
             <a>Gör testet</a>
