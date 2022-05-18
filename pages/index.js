@@ -4,7 +4,8 @@ import logo from '../public/static/truly-logo.png'
 import { firestore } from "../utils/firebase";
 
 export default function AboutPage({ users }) {
-  console.log(users)
+  /* console.log(users) */
+  
   return (
   
     <div className="page about">

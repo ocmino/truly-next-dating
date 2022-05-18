@@ -2,6 +2,7 @@
 import { useState } from "react";
 import questions from "../questions.json";
 import Link from "next/link";
+import RelationalType from "./relationaltype";
 
 
 
@@ -65,9 +66,8 @@ export default function Questionaire() {
         <h1 className="questionText">
           Ditt värde är {score.toFixed(2)} av 7
         </h1>
-
-        </>
         
+        </>
         
       ) : (
         <>
@@ -117,15 +117,20 @@ export default function Questionaire() {
               }
               className="w-[49%] py-3 bg-indigo-600 rounded-lg"
             >
-              {currentQuestion + 1 === questions.length ? "Se resultat" : "Fortsätt"}
+              {currentQuestion + 1 === questions.length ? <Link href="relationaltype">Se resultat</Link> : "Fortsätt"} 
             </button>
+
+
+       
+
+
           </div>
           <div className="textChoice">
             <div className="leftChoice">
-              instämmer inte alls
+              Instämmer inte alls
               </div>
             <div className="rightChoice">
-              instämmer helt
+              Instämmer helt
               </div>
           </div>
         </>

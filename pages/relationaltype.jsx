@@ -3,19 +3,21 @@ import questions from "../questions.json";
 import Questionaire from "./questions";
 import { useState } from "react";
 import Link from "next/link";
+import { score } from "./questions"
+
 
 
 
 
 export default function RelationalType() {
 
-    const [score] = useState(0);
    
     return (
         <div className="relationaltypePage"> 
             <div className="relationalText">
                 <h1 className="relationalfirstText">Din relationstyp är</h1>
                <div> <h1 className="undvikande">UNDVIKANDE</h1></div>
+        
 
 
 
@@ -33,7 +35,6 @@ export default function RelationalType() {
                 Upplevs som trygg & självständig.
                 Känns svårt att tala om känslor.
                 Hittar snabbt ”brister” hos sin partner.
-
                 </p>
             </div>
 
@@ -45,3 +46,5 @@ export default function RelationalType() {
         </div>
     )
 }
+
+
