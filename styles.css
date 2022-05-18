@@ -316,7 +316,7 @@ color: #FFFFFF;
 }
 a {
   text-decoration: none;
-  color: white;
+  /* color: white; */
 }
 .testPages {
 
@@ -437,13 +437,20 @@ a {
 }
 
 .indexButtonLogin{
+
   position: absolute;
   width: 344px;
   height: 56px;
   left: 16px;
   top: 468px;
   background: none;
+  
   border: 2px solid white;/* this is for button border*/
+ 
+}
+
+.indexButtonLoginColor{
+color: white;
 }
 
 .indexButtonCreateAccount {

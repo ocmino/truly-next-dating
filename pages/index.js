@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Image from 'next/image'
 import logo from '../public/static/truly-logo.png'
-import { firestore } from "../utils/firebase";
 
-export default function AboutPage({ users }) {
-  /* console.log(users) */
+
+export default function AboutPage() {
+  
   
   return (
   
@@ -18,13 +18,13 @@ export default function AboutPage({ users }) {
       <div>
       <button className="indexButtonLogin"><p>
           <Link href="/loginpage">
-            <a className="">Logga in</a>
+            <a className="indexButtonLoginColor">Logga in</a>
           </Link>
         </p></button>
 
         <button className="indexButtonCreateAccount">
-          <Link href="/createAccount">
-            <p>Skapa konto</p>
+          <Link href="/signup">
+            <a>Skapa konto</a>
           </Link>
         </button>
 
@@ -36,23 +36,4 @@ export default function AboutPage({ users }) {
     </div>
   );
 }
-// serverside code
-export async function getServerSideProps(){
 
-const snapshots = await firestore.collection('users').get()
-const users = snapshots.docs.map(doc => {
-  return  {
-    id: doc.id,
-    ...doc.data()
-  }
-})
-
-console.log(users)
-  return {
-    props: {
-      users : users
-    }
-  }
-
-
-}
