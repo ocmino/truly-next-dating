@@ -3,10 +3,13 @@ import { useState } from "react";
 import questions from "../questions.json";
 import Link from "next/link";
 import RelationalType from "./relationaltype";
+import { useRouter } from 'next/router'
 
 
 
 export default function Questionaire() {
+
+  const router = useRouter()
 
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);

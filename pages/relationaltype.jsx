@@ -11,6 +11,7 @@ import { score } from "./questions"
 
 export default function RelationalType() {
 
+    const [score] = useState(0);
    
     return (
         <div className="relationaltypePage"> 
@@ -46,5 +47,3 @@ export default function RelationalType() {
         </div>
     )
 }
-
-
