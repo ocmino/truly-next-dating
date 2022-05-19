@@ -1,10 +1,8 @@
 
 import questions from "../questions.json";
-import Questionaire from "./questions";
+
 import { useState } from "react";
 import Link from "next/link";
-import { score } from "./questions"
-import { FaCircle} from 'react-icons/fa';
 
 
 
@@ -17,7 +15,7 @@ export default function RelationalType() {
     return (
         <div className="relationaltypePage"> 
             <div className="relationalText">
-                <h1 className="relationalfirstText">Din relationstyp är</h1>
+                <h1 className="relationalfirstText">Din anknytning är</h1>
                <div> <h1 className="undvikande">UNDVIKANDE</h1></div>
         
 
@@ -31,13 +29,13 @@ export default function RelationalType() {
                 <p>Ett värde över 3,11 resulterar i en undvikande anknytning. Ett högre värde kan tyda på en otryggare anknytning</p>
             </div>
             <div className="descriptiveText">
-            <p>
-                ● Mer tankestyrd än känslostyrd. <br></br>
-               ● Ofta social & utåtriktad.<br></br>
-               ● Upplevs som trygg & självständig.<br></br>
-               ● Känns svårt att tala om känslor.<br></br>
-               ● Hittar snabbt ”brister” hos sin partner.</p>
-               
+                <ul>
+                   <li>Mer tankestyrd än känslostyrd.</li>
+                    <li>Ofta social & utåtriktad.</li>
+                    <li> Upplevs som trygg & självständig.</li>
+                    <li>Känns svårt att tala om känslor.</li>
+                   <li> Hittar snabbt ”brister” hos sin partner.</li>
+                </ul>   
             </div>
 
             <p><button><p>

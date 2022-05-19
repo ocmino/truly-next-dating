@@ -4,11 +4,24 @@ import questions from "../questions.json";
 import Link from "next/link";
 import RelationalType from "./relationaltype";
 import { useRouter } from 'next/router'
+import ReactDOM from 'react-dom';
 
 
 
 export default function Questionaire() {
-  /* Hej */
+
+
+const [style, setStyle] = useState("cont");
+const changeStyle = () => {
+setStyle("cont2");
+}
+
+const [style2, setStyle2] = useState("cont3");
+const changeStyle2 = () => {
+setStyle("cont4");
+}
+
+ 
   const router = useRouter()
 
   const [score, setScore] = useState(0);
@@ -90,11 +103,15 @@ export default function Questionaire() {
                 <div
                   tabIndex="1"
                   key={index}
-                  id="testButtonLayout"
                   className="testButtonLayout"
-                  onClick={(e) => handleAnswerOption(answer.answer)}>
+                           /*  onClick={changeStyle} */
+                  onClick={(e) => handleAnswerOption(answer.answer)}
+                  // eslint-disable-next-line react/jsx-no-duplicate-props
+                  onClick={changeStyle}>
+                  
 
                   <input type="radio"
+        
                     name={answer.answer}
                     value={answer.answer}
                     onChange={(e) => handleAnswerOption(answer.answer)}
@@ -108,26 +125,19 @@ export default function Questionaire() {
               ))}
           </div>
 
-          <div className="flex justify-between w-full mt-4 text-white">
+          <div >
             <button
-              onClick={handlePrevious}
-              className="w-[49%] py-3 bg-indigo-600 rounded-lg">
-              Föregående
+            className={style}
+              onClick={changeStyle2,currentQuestion + 1 === questions.length ? handleSubmitButton : handleNext}>
+                {/* // eslint-disable-next-line react/jsx-no-duplicate-props
+                  onClick={changeStyle2}> */}
+              {currentQuestion + 1 === questions.length ? <Link href="relationaltype">Se resultat</Link> : "Fortsätt"}
             </button>
-            <button
-              onClick={
-                currentQuestion + 1 === questions.length ? handleSubmitButton : handleNext
-              }
-              className="w-[49%] py-3 bg-indigo-600 rounded-lg"
-            >
-              {currentQuestion + 1 === questions.length ? <Link href="relationaltype">Se resultat</Link> : "Fortsätt"} 
-            </button>
-
-
-       
-
-
           </div>
+
+
+
+          
           <div className="textChoice">
             <div className="leftChoice">
               Instämmer inte alls

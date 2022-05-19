@@ -96,7 +96,8 @@ height: 56px;
 left: 16px;
 top: 644px;
 
-background: #9234E4;
+/* background: #9234E4; */
+/* background-color: grey; */
 border-radius: 15px;
 border: transparent;
 font-family: 'Helvetica Neue';
@@ -108,6 +109,18 @@ line-height: 24px;
 text-align: center;
 
 color: #FFFFFF;
+}
+.cont {
+  background-color: grey;
+}
+.cont2{
+  background-color: purple;
+}
+.cont3 {
+  background-color: purple;
+}
+.cont4 {
+  background-color: gray;
 }
 
 .input-email {
@@ -590,7 +603,7 @@ color: #000000;
   position: absolute;
   width: 344px;
   height: 165px;
-  left: 40px;
+  left:px;
   top: 407px;
   
   font-family: 'Helvetica Neue';
