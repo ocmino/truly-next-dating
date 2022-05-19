@@ -8,7 +8,7 @@ import { useRouter } from 'next/router'
 
 
 export default function Questionaire() {
-
+  /* Hej */
   const router = useRouter()
 
   const [score, setScore] = useState(0);
