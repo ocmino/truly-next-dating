@@ -588,23 +588,21 @@ color: #000000;
 
 .descriptiveText{
   position: absolute;
-width: 344px;
-height: 120px;
-left: 16px;
-top: 404px;
-
-/* Heading Mobile/Body/Body 1 Bold */
-
-font-family: 'Helvetica Neue';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* or 150% */
-
-
-color: #000000;
-
+  width: 344px;
+  height: 165px;
+  left: 40px;
+  top: 407px;
+  
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+  
+  letter-spacing: 0.02em;
+  
+  color: #000000;
 }
 
 

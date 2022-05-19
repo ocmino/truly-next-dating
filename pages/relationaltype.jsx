@@ -4,6 +4,7 @@ import Questionaire from "./questions";
 import { useState } from "react";
 import Link from "next/link";
 import { score } from "./questions"
+import { FaCircle} from 'react-icons/fa';
 
 
 
@@ -30,13 +31,13 @@ export default function RelationalType() {
                 <p>Ett värde över 3,11 resulterar i en undvikande anknytning. Ett högre värde kan tyda på en otryggare anknytning</p>
             </div>
             <div className="descriptiveText">
-                <p> 
-                Mer tankestyrd än känslostyrd.
-                Ofta social & utåtriktad.
-                Upplevs som trygg & självständig.
-                Känns svårt att tala om känslor.
-                Hittar snabbt ”brister” hos sin partner.
-                </p>
+            <p>
+                ● Mer tankestyrd än känslostyrd. <br></br>
+               ● Ofta social & utåtriktad.<br></br>
+               ● Upplevs som trygg & självständig.<br></br>
+               ● Känns svårt att tala om känslor.<br></br>
+               ● Hittar snabbt ”brister” hos sin partner.</p>
+               
             </div>
 
             <p><button><p>
