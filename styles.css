@@ -617,6 +617,29 @@ color: #000000;
   
   color: #000000;
 }
+.logo{
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 46px;
+  /* or 144% */
+  align-items: center;
+  text-align: center;
+  color: #212939;
+  }
+  .avoiding{
+    font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 32px;
+/* identical to box height, or 123% */
+
+text-align: center;
+
+color: #AA33B2;
+}
 
 
 
