@@ -642,29 +642,40 @@ color: #AA33B2;
 }
 
 .readMoreDropDown {
-text-align: center;
+text-align: left;
 color: black;
+margin-left: 2em;
 
 
-
+height: 100%;
 
 font-family: 'Helvetica Neue';
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 24px;
-text-align: center;
+
 color: black;
 }
 .dropdown{
   color: black;
+  margin-left: 2em;
+  position: absolute;
+  align-items: left;
+  height: fit-content;
+}
+.dropdown2 {
+  color: black;
+  margin-left: 17em;
+  position: absolute;
+}
+.dropdownDivider{
+  align-items: center;
+  text-align: center;
+  margin-left: 1px;
 }
 
 
-.testicon{
-
-  color: red;
-}
 
 
 
