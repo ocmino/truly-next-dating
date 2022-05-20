@@ -675,9 +675,6 @@ color: black;
   margin-left: 1px;
 }
 
-
-
-
 .DropDownMenu{
   position: absolute;
 margin: 2em;
@@ -691,7 +688,6 @@ font-size: 16px;
 line-height: 24px;
 color: black;
 text-decoration: none;
-
 }
 
 .Icons{

@@ -17,6 +17,10 @@ export default function ReadMoreDropDown() {
      
             
             <div  className="LinksDiv">
+
+                <h1 className="logo">truly</h1>
+                 <h1 className="avoiding">UNDVIKANDE</h1>
+                
                 <ul className="Links">
                     <GiInfinity className="Icons"/>
                     <Link href="/anknytningsteori" className="DropDownMenu">
