@@ -14,71 +14,80 @@ export default function ReadMoreDropDown() {
 
     return (
 
-        <div >
+     
             
-            <div className="DropDownMenu">
-                <ul>
-                    <GiInfinity/>
+            <div  className="LinksDiv">
+                <ul className="Links">
+                    <GiInfinity className="Icons"/>
                     <Link href="/anknytningsteori" className="DropDownMenu">
-                    <a>Anknytningsteori</a>
+                    <a className="DropDownMenu">Anknytningsteori</a>
                     </Link>
-                    <ImArrowRight/>
+                    <p className="Line">__________________________________</p>
+                    <ImArrowRight className="Arrow"/>
+              
                 </ul>
                 <br></br>
-                <ul>
-                    <BsFlagFill/>
+                <ul className="Links">
+                    <BsFlagFill className="Icons"/>
                     <Link href="/anknytningsteori" className="DropDownMenu">
-                    <a>Fem kännetecken</a>
+                    <a className="DropDownMenu">Fem kännetecken</a>
                     </Link>
-                    <ImArrowRight/>
+                    <p className="Line">__________________________________</p>
+                    <ImArrowRight className="Arrow"/>
                 </ul>
                 <br></br>
-                <ul>
-                    <RiBearSmileLine/>
+                <ul className="Links">
+                    <RiBearSmileLine className="Icons"/>
                     <Link href="/anknytningsteori" className="DropDownMenu">
-                    <a>Barndomens påverkan</a>
+                    <a className="DropDownMenu">Barndomens påverkan</a>
                     </Link>
-                    <ImArrowRight/>
+                    <p className="Line">__________________________________</p>
+                    <ImArrowRight className="Arrow"/>
                 </ul>
                 <br></br>
-                <ul>
-                    <MdOutlineSubdirectoryArrowLeft/>
+                <ul className="Links">
+                    <MdOutlineSubdirectoryArrowLeft className="Icons"/>
                     <Link href="/anknytningsteori" className="DropDownMenu">
-                    <a>Ändra anknytning</a>
+                    <a className="DropDownMenu">Ändra anknytning</a>
                     </Link>
-                    <ImArrowRight/>
+                    <p className="Line">__________________________________</p>
+                    <ImArrowRight className="Arrow"/>
                 </ul>
                 <br></br>
-                <ul>
-                    <GiDynamite/>
+                <ul className="Links">
+                    <GiDynamite className="Icons"/>
                     <Link href="/anknytningsteori" className="DropDownMenu">
-                    <a>När triggas anknytning</a>
+                    <a className="DropDownMenu">När triggas anknytning</a>
                     </Link>
-                    <ImArrowRight/>
+                    <p className="Line">__________________________________</p>
+                    <ImArrowRight className="Arrow"/>
                 </ul>
                  <br></br>
-                <ul>
-                    <GiBookmarklet/>
+                <ul className="Links">
+                    <GiBookmarklet className="Icons"/>
                     <Link href="/anknytningsteori" className="DropDownMenu">
-                    <a>Böcker om anknytning</a>
+                    <a className="DropDownMenu">Böcker om anknytning</a>
                     </Link>
-                    <ImArrowRight/>
+                    <p className="Line">__________________________________</p>
+                    <ImArrowRight className="Arrow"/>
                 </ul>
                  <br></br>
-                <ul>
-                    <AiOutlineBulb/>
+                <ul className="Links">
+                    <AiOutlineBulb className="Icons"/>
                     <Link href="/anknytningsteori" className="DropDownMenu">
-                    <a>6 tips för den undvikande</a>
+                    <a className="DropDownMenu">6 tips för den undvikande</a>
                     </Link>
-                    <ImArrowRight/>
+                    <p className="Line">__________________________________</p>
+                    <ImArrowRight className="Arrow"/>
                 </ul>
                  <br></br>
-                <ul>
-                    <RiSwordLine/>
+                <ul className="Links">
+                    <RiSwordLine className="Icons"/>
                     <Link href="/anknytningsteori" className="DropDownMenu">
-                    <a>Övningar som utmanar</a>
+                    <a className="DropDownMenu">Övningar som utmanar</a>
                     </Link>
-                    <ImArrowRight/>
+                    <p className="Line">__________________________________</p>
+                    <ImArrowRight className="Arrow"/>
                 </ul>
             </div>
      
@@ -86,7 +95,7 @@ export default function ReadMoreDropDown() {
            
             
            
-        </div>
+     
 
     
   )
