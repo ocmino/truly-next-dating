@@ -105,10 +105,10 @@ setStyle("cont4");
                   key={index}
                   className="testButtonLayout"
                            /*  onClick={changeStyle} */
-                  onClick={(e) => handleAnswerOption(answer.answer)}
-                  // eslint-disable-next-line react/jsx-no-duplicate-props
-                  onClick={changeStyle}>
-                  
+                  onClick={(e) => {handleAnswerOption(answer.answer);
+                        changeStyle();
+                  }}>
+                 
 
                   <input type="radio"
         
@@ -128,9 +128,9 @@ setStyle("cont4");
           <div >
             <button
             className={style}
-              onClick={changeStyle2,currentQuestion + 1 === questions.length ? handleSubmitButton : handleNext}>
-                {/* // eslint-disable-next-line react/jsx-no-duplicate-props
-                  onClick={changeStyle2}> */}
+              onClick={(e) => {currentQuestion + 1 === questions.length ? handleSubmitButton : handleNext();
+              changeStyle2();}}>
+             
               {currentQuestion + 1 === questions.length ? <Link href="relationaltype">Se resultat</Link> : "Fortsätt"}
             </button>
           </div>
