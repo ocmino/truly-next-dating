@@ -1,53 +1,93 @@
-import { useState } from "react";
-import Link from "next/link";
-import Dropdown from 'react-bootstrap/Dropdown';
-import { FaAngleRight, FaFontAwesomeFlag, FaInfinity } from "react-icons/fa";
-import { RiBearSmileLine, RiArrowGoBackFill } from "react-icons/ri";
-import { GiDynamite,GiOpenBook } from "react-icons/gi";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { GiInfinity } from "react-icons/gi";
+import { ImArrowRight } from "react-icons/im";
+import { BsFlagFill } from "react-icons/bs";
+import { RiBearSmileLine, RiSwordLine } from "react-icons/ri";
+import { MdOutlineSubdirectoryArrowLeft } from "react-icons/md";
+import { GiDynamite, GiBookmarklet } from "react-icons/gi";
+import { AiOutlineBulb } from "react-icons/ai";
+import Link from 'next/link';
 
 export default function ReadMoreDropDown() {
 
 
-    return(
-        <div>
-            <div className="logo">
-                <h1>truly</h1>
-            </div>
+    return (
 
-            <div>
-                <h1 className="avoiding">UNDVIKANDE</h1>
-            </div>
-
-            <div className="readMoreDropDown">    
-                <Dropdown.Menu show>
-                <a>{/* <FaInfinity/> */}👎</a>    <Dropdown.Item eventKey="1" className="dropdown">Ankytningsteori</Dropdown.Item> <a className="dropdown2" href="https://www.google.com/?client=safari"><FaAngleRight /></a>   
-                <Dropdown.Divider />
-                <a>{/* <FaFontAwesomeFlag/> */}🏳️</a>    <Dropdown.Item eventKey="1" className="dropdown">Fem kännetecken</Dropdown.Item> <a className="dropdown2" href="https://www.google.com/?client=safari"><FaAngleRight /></a> 
-                <Dropdown.Divider />
-                <a>{/* <RiBearSmileLine/> */}🐻</a>    <Dropdown.Item eventKey="1" className="dropdown">Barndomens påverkan</Dropdown.Item> <a className="dropdown2" href="https://www.google.com/?client=safari"><FaAngleRight /></a> 
-                <Dropdown.Divider />
-                <a>{/* <RiArrowGoBackFill/> */}↩️</a>    <Dropdown.Item eventKey="1" className="dropdown">Ändra anknytning</Dropdown.Item> <a className="dropdown2" href="https://www.google.com/?client=safari"><FaAngleRight /></a>
-                <Dropdown.Divider />
-                <a>{/* <GiDynamite/> */}🧨</a>    <Dropdown.Item eventKey="1" className="dropdown">Ändra anknytning</Dropdown.Item> <a className="dropdown2" href="https://www.google.com/?client=safari"><FaAngleRight /></a>
+        <div >
             
-                </Dropdown.Menu>
-                <Dropdown.Divider className="dropdownDivider" />
-                <a>{/* <GiOpenBook/> */}📖</a>    <Dropdown.Item eventKey="1" className="dropdown">Böcker om anknytning</Dropdown.Item> <a className="dropdown2" href="https://www.google.com/?client=safari"><FaAngleRight /></a>
-                <Dropdown.Divider />
-                <a>{/* <GiOpenBook/> */}💡</a>    <Dropdown.Item eventKey="1" className="dropdown">6 tips för den undvikande</Dropdown.Item> <a className="dropdown2" href="https://www.google.com/?client=safari"><FaAngleRight /></a>
-                <Dropdown.Divider />
-                <a>{/* <GiOpenBook/> */}⚔️</a>    <Dropdown.Item eventKey="1" className="dropdown">Böcker om anknytning</Dropdown.Item> <a className="dropdown2" href="https://www.google.com/?client=safari"><FaAngleRight /></a>
+            <div className="DropDownMenu">
+                <ul>
+                    <GiInfinity/>
+                    <Link href="/anknytningsteori" className="DropDownMenu">
+                    <a>Anknytningsteori</a>
+                    </Link>
+                    <ImArrowRight/>
+                </ul>
+                <br></br>
+                <ul>
+                    <BsFlagFill/>
+                    <Link href="/anknytningsteori" className="DropDownMenu">
+                    <a>Fem kännetecken</a>
+                    </Link>
+                    <ImArrowRight/>
+                </ul>
+                <br></br>
+                <ul>
+                    <RiBearSmileLine/>
+                    <Link href="/anknytningsteori" className="DropDownMenu">
+                    <a>Barndomens påverkan</a>
+                    </Link>
+                    <ImArrowRight/>
+                </ul>
+                <br></br>
+                <ul>
+                    <MdOutlineSubdirectoryArrowLeft/>
+                    <Link href="/anknytningsteori" className="DropDownMenu">
+                    <a>Ändra anknytning</a>
+                    </Link>
+                    <ImArrowRight/>
+                </ul>
+                <br></br>
+                <ul>
+                    <GiDynamite/>
+                    <Link href="/anknytningsteori" className="DropDownMenu">
+                    <a>När triggas anknytning</a>
+                    </Link>
+                    <ImArrowRight/>
+                </ul>
+                 <br></br>
+                <ul>
+                    <GiBookmarklet/>
+                    <Link href="/anknytningsteori" className="DropDownMenu">
+                    <a>Böcker om anknytning</a>
+                    </Link>
+                    <ImArrowRight/>
+                </ul>
+                 <br></br>
+                <ul>
+                    <AiOutlineBulb/>
+                    <Link href="/anknytningsteori" className="DropDownMenu">
+                    <a>6 tips för den undvikande</a>
+                    </Link>
+                    <ImArrowRight/>
+                </ul>
+                 <br></br>
+                <ul>
+                    <RiSwordLine/>
+                    <Link href="/anknytningsteori" className="DropDownMenu">
+                    <a>Övningar som utmanar</a>
+                    </Link>
+                    <ImArrowRight/>
+                </ul>
             </div>
+     
 
-
-
-
-
-
-         
+           
+            
+           
         </div>
 
-
-    )
+    
+  )
 }

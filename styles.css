@@ -114,10 +114,10 @@ color: #FFFFFF;
   background-color: grey;
 }
 .cont2{
-  background-color: purple;
+  background-color: #9234E4;
 }
 .cont3 {
-  background-color: purple;
+  background-color: #9234E4;
 }
 .cont4 {
   background-color: gray;
@@ -644,8 +644,8 @@ color: #AA33B2;
 .readMoreDropDown {
 text-align: left;
 color: black;
-margin-left: 2em;
-
+margin-left: 1em;
+margin-top: 50%;
 
 height: 100%;
 
@@ -673,6 +673,15 @@ color: black;
   align-items: center;
   text-align: center;
   margin-left: 1px;
+}
+
+
+
+
+.DropDownMenu{
+margin: 2em;
+margin-top: 25%;
+
 }
 
 
