@@ -27,10 +27,10 @@ const Login = () => {
     <div className="page about">
       <div>
       {/* logo */}
-    {/*   <h1 className="trulyLogin"><Image src={logo} width={50} height={50}/> truly</h1> */}
+    {  <h1 className="trulyLogin"><Image src={logo} width={50} height={50}/> truly</h1>}
       </div>
       
-    {/*   <div>
+    {  <div>
         <p><input type="email" className="input-email" placeholder="E-post"></input></p>
         <p><input type="password" className="input-password" placeholder="Lösenord"></input></p>
         <p><button className="loginButton"><p>
@@ -44,7 +44,7 @@ const Login = () => {
             <a className="problemlogin">Problem att logga in?</a>
           </Link>
         </p> 
-      </div> */}
+      </div>}
 
       <ul>
         {users.map((user) => {

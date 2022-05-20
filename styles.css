@@ -641,6 +641,31 @@ text-align: center;
 color: #AA33B2;
 }
 
+.readMoreDropDown {
+text-align: center;
+color: black;
+
+
+
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: black;
+}
+.dropdown{
+  color: black;
+}
+
+
+.testicon{
+
+  color: red;
+}
+
 
 
 
