@@ -38,8 +38,6 @@ export default function ReadMoreDropDown() {
                 <a>{/* <GiOpenBook/> */}💡</a>    <Dropdown.Item eventKey="1" className="dropdown">6 tips för den undvikande</Dropdown.Item> <a className="dropdown2" href="https://www.google.com/?client=safari"><FaAngleRight /></a>
                 <Dropdown.Divider />
                 <a>{/* <GiOpenBook/> */}⚔️</a>    <Dropdown.Item eventKey="1" className="dropdown">Böcker om anknytning</Dropdown.Item> <a className="dropdown2" href="https://www.google.com/?client=safari"><FaAngleRight /></a>
-
-                
             </div>
 
 

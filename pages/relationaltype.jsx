@@ -23,7 +23,7 @@ export default function RelationalType() {
 
             </div>  
             <div className="scoreReveal">
-                <p>Ditt värde ( {score} av {questions.length})</p>
+                <p>Ditt värde ( 4.2 av {questions.length})</p>
             </div>
             <div className="informationText">   
                 <p>Ett värde över 3,11 resulterar i en undvikande anknytning. Ett högre värde kan tyda på en otryggare anknytning</p>
@@ -39,7 +39,7 @@ export default function RelationalType() {
             </div>
 
             <p><button><p>
-          <Link href="">
+          <Link href="readmoredropdown">
             <a>Fortsätt</a>
           </Link>
         </p></button></p>
