@@ -33,7 +33,7 @@ export default function ReadMoreDropDown() {
                 <br></br>
                 <ul className="Links">
                     <BsFlagFill className="Icons"/>
-                    <Link href="/anknytningsteori" className="DropDownMenu">
+                    <Link href="/femkannetecken" className="DropDownMenu">
                     <a className="DropDownMenu">Fem kännetecken</a>
                     </Link>
                     <p className="Line">__________________________________</p>
