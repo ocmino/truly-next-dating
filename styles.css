@@ -713,7 +713,43 @@ text-decoration: none;
   position: absolute;
   color: #DDDDDD;
 }
+.Infopages{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.headline{
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color:  #AA33B2;
+  margin-top: 10%;
+}
+.headline2{
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 10%;
+  color: #000000;
+}
+.headline3{
+font-family: 'Helvetica Neue';
+font-style: normal;
+/*font-weight: 700;*/
+font-size: 18px;
+line-height: 24px;
+color: #000000;
+}
+.infocontent{
+font-family: 'Helvetica Neue';
+font-style: normal;
+/*font-weight: 700;*/
+font-size: 16px;
+line-height: 24px;
 
+}
 
 
 
