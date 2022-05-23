@@ -30,9 +30,9 @@ export default function Welcome() {
       <br></br>
         <p>Testet tar ca <b>5 min</b> att göra.</p>
         
-        <p><button><p>
+        <p><button className="startTestButton"><p>
           <Link href="/questions">
-            <a>Gör testet</a>
+            <a className="indexButtonLoginColor">Gör testet</a>
           </Link>
         </p></button></p>
       </div>
