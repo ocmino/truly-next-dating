@@ -131,7 +131,9 @@ setStyle("cont4");
               onClick={(e) => {currentQuestion + 1 === questions.length ? handleSubmitButton : handleNext();
               changeStyle2();}}>
              
-              {currentQuestion + 1 === questions.length ? <Link href="relationaltype">Se resultat</Link> : "Fortsätt"}
+              {currentQuestion + 1 === questions.length ? <Link href="relationaltype">
+                <a className="indexButtonLoginColor">Se resultat</a>
+                </Link> : "Fortsätt"}
             </button>
           </div>
 

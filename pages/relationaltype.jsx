@@ -38,9 +38,9 @@ export default function RelationalType() {
                 </ul>   
             </div>
 
-            <p><button><p>
+            <p><button className="startTestButton"><p>
           <Link href="readmoredropdown">
-            <a>Fortsätt</a>
+            <a className="indexButtonLoginColor">Fortsätt</a>
           </Link>
         </p></button></p>
         </div>
