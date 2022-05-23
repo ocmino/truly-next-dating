@@ -1,4 +1,4 @@
-export default function Femkannetecken(){
+/*export default function Femkannetecken(){
 
     return(
         <div className="Infopages">
@@ -16,4 +16,4 @@ export default function Femkannetecken(){
             </div>
         </div>
     )
-}
+}*/
