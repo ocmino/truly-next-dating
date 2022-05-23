@@ -2,8 +2,8 @@ export default function Femkannetecken(){
 
     return(
 
-        <div>test vercel</div>
-       /*  <div className="Infopages">
+       
+        <div className="Infopages">
             <div className="headline">
                 <h2>Fem kännetecken</h2>
             </div>
@@ -16,6 +16,6 @@ export default function Femkannetecken(){
                 <p> Hittar snabbt "brister" hos sin partner. </p>
                 
             </div>
-        </div> */
+        </div>
     )
 }
