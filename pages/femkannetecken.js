@@ -13,7 +13,7 @@ export default function Femkannetecken(){
                 <p> Ofta social och utåtriktad. </p>
                 <p> Upplevs som trygg & självständig. </p>
                 <p> Känns svårt att tala om känslor. </p> 
-                <p> Hittar snabbt brister hos sin partner. </p>
+                <p> Hittar snabbt &ldquo;brister&rdquo; hos sin partner. </p>
                 
             </div>
         </div>
