@@ -20,6 +20,8 @@ export default function ReadMoreDropDown() {
 
                 <Link href="/loginpage"><a className="backArrow1">←</a></Link>
 
+                <Link href="/profilePage"><a className="profileX">X</a></Link>
+
                 <h1 className="logo">truly</h1>
                 
                  <h1 className="avoiding">UNDVIKANDE</h1>
@@ -29,7 +31,7 @@ export default function ReadMoreDropDown() {
                     <Link href="/anknytningsteori" className="DropDownMenu">
                     <a className="DropDownMenu">Anknytningsteori</a>
                     </Link>
-                    <p className="Line">__________________________________</p>
+                    <p className="Line">______________________________________________</p>
                     <ImArrowRight className="Arrow"/>
               
                 </ul>
@@ -39,7 +41,7 @@ export default function ReadMoreDropDown() {
                     <Link href="/femkannetecken" className="DropDownMenu">
                     <a className="DropDownMenu">Fem kännetecken</a>
                     </Link>
-                    <p className="Line">__________________________________</p>
+                    <p className="Line">______________________________________________</p>
                     <ImArrowRight className="Arrow"/>
                 </ul>
                 <br></br>
@@ -48,7 +50,7 @@ export default function ReadMoreDropDown() {
                     <Link href="/anknytningsteori" className="DropDownMenu">
                     <a className="DropDownMenu">Barndomens påverkan</a>
                     </Link>
-                    <p className="Line">__________________________________</p>
+                    <p className="Line">______________________________________________</p>
                     <ImArrowRight className="Arrow"/>
                 </ul>
                 <br></br>
@@ -57,7 +59,7 @@ export default function ReadMoreDropDown() {
                     <Link href="/anknytningsteori" className="DropDownMenu">
                     <a className="DropDownMenu">Ändra anknytning</a>
                     </Link>
-                    <p className="Line">__________________________________</p>
+                    <p className="Line">______________________________________________</p>
                     <ImArrowRight className="Arrow"/>
                 </ul>
                 <br></br>
@@ -66,7 +68,7 @@ export default function ReadMoreDropDown() {
                     <Link href="/anknytningsteori" className="DropDownMenu">
                     <a className="DropDownMenu">När triggas anknytning</a>
                     </Link>
-                    <p className="Line">__________________________________</p>
+                    <p className="Line">______________________________________________</p>
                     <ImArrowRight className="Arrow"/>
                 </ul>
                  <br></br>
@@ -75,7 +77,7 @@ export default function ReadMoreDropDown() {
                     <Link href="/anknytningsteori" className="DropDownMenu">
                     <a className="DropDownMenu">Böcker om anknytning</a>
                     </Link>
-                    <p className="Line">__________________________________</p>
+                    <p className="Line">______________________________________________</p>
                     <ImArrowRight className="Arrow"/>
                 </ul>
                  <br></br>
@@ -84,7 +86,7 @@ export default function ReadMoreDropDown() {
                     <Link href="/anknytningsteori" className="DropDownMenu">
                     <a className="DropDownMenu">6 tips för den undvikande</a>
                     </Link>
-                    <p className="Line">__________________________________</p>
+                    <p className="Line">______________________________________________</p>
                     <ImArrowRight className="Arrow"/>
                 </ul>
                  <br></br>
@@ -93,7 +95,7 @@ export default function ReadMoreDropDown() {
                     <Link href="/anknytningsteori" className="DropDownMenu">
                     <a className="DropDownMenu">Övningar som utmanar</a>
                     </Link>
-                    <p className="Line">__________________________________</p>
+                    <p className="Line">______________________________________________</p>
                     <ImArrowRight className="Arrow"/>
                 </ul>
                 <br></br>
