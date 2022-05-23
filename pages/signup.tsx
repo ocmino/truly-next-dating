@@ -35,7 +35,7 @@ const Login = () => {
         <p><input type="password" className="input-password" placeholder="Lösenord"></input></p>
         <p><button className="loginButton"><p>
           <Link href="">
-            <a className="">Skapa konto</a>
+            <a className="indexButtonLoginColor">Skapa konto</a>
           </Link>
         </p></button></p>
         
@@ -67,7 +67,13 @@ const Login = () => {
   
 }
 
+function isEmailValid(email) {
+  const emailRegexp = new RegExp(
+    /^[a-zA-Z0-9][\-_\.\+\!\#\$\%\&\'\*\/\=\?\^\`\{\|]{0,1}([a-zA-Z0-9][\-_\.\+\!\#\$\%\&\'\*\/\=\?\^\`\{\|]{0,1})*[a-zA-Z0-9]@[a-zA-Z0-9][-\.]{0,1}([a-zA-Z][-\.]{0,1})*[a-zA-Z0-9]\.[a-zA-Z0-9]{1,}([\.\-]{0,1}[a-zA-Z]){0,}[a-zA-Z0-9]{0,}$/i
+  )
 
+  return emailRegexp.test(email)
+}
 
 // serverside code
 export async function getServerSideProps(){

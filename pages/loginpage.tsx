@@ -18,11 +18,6 @@ const Login = () => {
   }
 }
 
-
-
-
-
-
   return (
     <div className="page about">
       <div>
@@ -35,7 +30,7 @@ const Login = () => {
         <p><input type="password" className="input-password" placeholder="Lösenord"></input></p>
         <p><button className="loginButton"><p>
           <Link href="/welcome">
-            <a className="">Logga in</a>
+            <a className="indexButtonLoginColor">Logga in</a>
           </Link>
         </p></button></p>
         

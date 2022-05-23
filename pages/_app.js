@@ -2,6 +2,8 @@ import { Device } from "../components/Device";
 import Head from "next/head";
 import "../styles.css";
 
+
+
 function MyApp({ Component, pageProps }) {
   return (
     <>

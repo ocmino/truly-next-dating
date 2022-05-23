@@ -493,6 +493,10 @@ a {
 color: white;
 }
 
+.createAccountColor{
+  color: #AA33B2;
+}
+
 .indexButtonCreateAccount {
   display: flex;
   flex-direction: row;

@@ -24,7 +24,7 @@ export default function AboutPage() {
 
         <button className="indexButtonCreateAccount">
           <Link href="/signup">
-            <a>Skapa konto</a>
+            <a className="createAccountColor" >Skapa konto</a>
           </Link>
         </button>
 
