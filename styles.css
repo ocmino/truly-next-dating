@@ -687,7 +687,7 @@ color: black;
   position: absolute;
 margin: 2em;
 margin-left: 15%;
-margin-top: 25%;
+margin-top: 10%;
 
 font-family: 'Helvetica Neue';
 font-style: normal;
@@ -699,16 +699,17 @@ text-decoration: none;
 }
 
 .Icons{
-  margin-top: 100px;
+  margin-top: 11%;
   margin-left: 2px;
   position: absolute;
 }
 .Arrow{
-   margin-top: 100px;
+   margin-top: 11%;
   position: absolute;
   margin-left: 300px
 }
 .Links{
+  margin-top: 10px;
   margin-bottom: 40px;
 }
 .LinksDiv{
@@ -717,7 +718,7 @@ text-decoration: none;
 }
 .Line {
   margin-left: 4%;
-  margin-top: 30%;
+  margin-top: 13%;
   position: absolute;
   color: #DDDDDD;
 }
@@ -778,17 +779,9 @@ margin-top: -25px;
   margin-left: -15em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+.backArrow1{
+  color: black;
+  margin-left: 1em;
+  font-family: 'Helvetica Neue';
+  font-size: 20px;
+}

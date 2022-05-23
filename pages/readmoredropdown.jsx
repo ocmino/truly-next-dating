@@ -18,7 +18,10 @@ export default function ReadMoreDropDown() {
             
             <div  className="LinksDiv">
 
+                <Link href="/loginpage"><a className="backArrow1">←</a></Link>
+
                 <h1 className="logo">truly</h1>
+                
                  <h1 className="avoiding">UNDVIKANDE</h1>
                 
                 <ul className="Links">
