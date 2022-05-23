@@ -1,9 +1,15 @@
+
+import Link from "next/link"
 export default function Anknytningsteori() {
 
     return (
+        
+
         <div className="Infopages">
+            
 
             <div className="headline">
+                <Link href="/readmoredropdown"><a className="backArrow">←</a></Link>
                 <h2>Anknytningsteori</h2>
             </div>
             <div className="headline2">
@@ -21,28 +27,36 @@ export default function Anknytningsteori() {
                     <br></br>
                     Din anknytning utvecklas särskilt under de första två levnadsåren, men befästs eller förändras av erfarenheter under hela din uppväxt. Även om dina mönster har blivit relativt beständiga i vuxen ålder är de fortfarande möjliga att förändra.</p>
             </div>
-            <div className="headline2">
-                <h6><b>Olika typer av anknytning</b></h6>
-            </div>
-           <br></br>
-            <div className="headline3">   
-                <p>Otrygg ambivalent anknytning</p>
-            </div>
-            <div className="infocontent">   
-                <p>Relationen tar mycket tankekraft och du tenderar att oroa dig för din partners förmåga att älska dig tillbaka.</p>
-            </div>
-            <div className="headline3">   
-                <p>Otrygg undvikande anknytning</p>
-            </div>
-            <div className="infocontent">   
-                <p>Jämställer ofta intimitet med förlust av självständighet och försöker ständigt att minimera närhet.</p>
-            </div>
-            <div className="headline3">   
-                <p>Trygg anknytning</p>
-            </div>
-            <div className="infocontent">   
-                <p>Är bekväma med intimitet och är ofta varma och kärleksfulla.</p>
-            </div>
+
+
+
+           
+                <div className="headline2">
+                    <h6><b>Olika typer av anknytning</b></h6>
+                </div>
+ 
+                <div className="headline3">   
+                    <p>Otrygg ambivalent anknytning</p>
+                </div>
+                <div className="infocontent">   
+                    <p>Relationen tar mycket tankekraft och du tenderar att oroa dig för din partners förmåga att älska dig tillbaka.</p>
+                </div>
+                <div className="headline3">   
+                    <p>Otrygg undvikande anknytning</p>
+                </div>
+                <div className="infocontent">   
+                    <p>Jämställer ofta intimitet med förlust av självständighet och försöker ständigt att minimera närhet.</p>
+                </div>
+                <div className="headline3">   
+                    <p>Trygg anknytning</p>
+                </div>
+                <div className="infocontent">   
+                    <p>Är bekväma med intimitet och är ofta varma och kärleksfulla.</p>
+                </div>
+       
+
+            
         </div>
+  
     )
 }

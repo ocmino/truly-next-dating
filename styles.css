@@ -716,6 +716,10 @@ text-decoration: none;
 .Infopages{
   margin-left: 1em;
   margin-right: 1em;
+  scroll-snap-type: y mandatory;
+  scroll-padding: 10px;
+  overflow-y: scroll;
+  padding: 2em;
 }
 .headline{
   font-family: 'Helvetica Neue';
@@ -731,7 +735,6 @@ text-decoration: none;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
-  margin-top: 10%;
   color: #000000;
 }
 .headline3{
@@ -741,6 +744,7 @@ font-style: normal;
 font-size: 16px;
 line-height: 24px;
 color:  #AA33B2;
+/* margin-top: -50px; */
 }
 .infocontent{
 font-family: 'Helvetica Neue';
@@ -748,6 +752,7 @@ font-style: normal;
 /*font-weight: 700;*/
 font-size: 16px;
 line-height: 24px;
+margin-top: -25px;
 }
 .fivesignscontent{
   font-family: 'Helvetica Neue';
@@ -758,6 +763,11 @@ line-height: 24px;
   text-align: left;
   margin-left: 1em;
   margin-top: 2em;
+}
+
+.backArrow{
+  color: black;
+  margin-left: -15em;
 }
 
 

@@ -1,3 +1,4 @@
+import Link from "next/link"
 export default function Femkannetecken(){
 
     return(
@@ -5,6 +6,7 @@ export default function Femkannetecken(){
        
         <div className="Infopages">
             <div className="headline">
+                <Link href="/readmoredropdown"><a className="backArrow">←</a></Link>
                 <h2>Fem kännetecken</h2>
             </div>
             <div className="fivesignscontent">
