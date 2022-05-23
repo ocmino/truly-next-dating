@@ -47,7 +47,7 @@ export default function ReadMoreDropDown() {
                 <br></br>
                 <ul className="Links">
                     <RiBearSmileLine className="Icons"/>
-                    <Link href="/anknytningsteori" className="DropDownMenu">
+                    <Link href="/barndomenspaverkan" className="DropDownMenu">
                     <a className="DropDownMenu">Barndomens påverkan</a>
                     </Link>
                     <p className="Line">______________________________________________</p>
