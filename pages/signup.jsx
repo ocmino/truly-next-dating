@@ -3,9 +3,10 @@ import Image from 'next/image'
 import logo from '../public/static/truly-logo.png'
 import React, { useState } from "react";
 import { firestore } from "../utils/firebase";
+import axios from "axios";
 
 export default function SignUp({ users }) {
-console.log(users)
+
 
 const Login = () => {
   const [data, setData] = useState({
@@ -13,11 +14,26 @@ const Login = () => {
     password: '',
   })
 
-  const handleLogin = (e: any) => {
-    e.preventDefault()
-    console.log(data)
-  }
 }
+
+
+
+const handleSubmit = (event) => {
+event.preventDefault()
+
+const formData = new FormData (event.target)
+const body = Object.fromEntries(formData.entries())
+console.log(body)
+
+
+
+axios.post('/api/users', body).then((res) => {
+  console.log(res)
+})
+
+
+}
+
 
   return (
 
@@ -30,21 +46,19 @@ const Login = () => {
     {  <h1 className="trulyLogin"><Image src={logo} width={50} height={50}/> truly</h1>}
       </div>
       
-    {  <div>
-        <p><input type="email" className="input-email" placeholder="E-post"></input></p>
-        <p><input type="password" className="input-password" placeholder="Lösenord"></input></p>
-        <p><button className="loginButton"><p>
-          <Link href="">
-            <a className="indexButtonLoginColor">Skapa konto</a>
-          </Link>
-        </p></button></p>
-        
-        <p>
-          <Link href="/contactform">
-            <a className="problemlogin">Problem att logga in?</a>
-          </Link>
-        </p> 
-      </div>}
+      <form onSubmit={handleSubmit}>
+        <div>
+          <p><input type="email" name="email" id="email" className="input-email" placeholder="E-post"></input></p>
+          <p><input type="password" name="password" id="password" className="input-password" placeholder="Lösenord"></input></p>
+          <p><button type="submit" className="loginButton">Skapa konto</button></p>
+          
+          <p>
+            <Link href="/contactform">
+              <a className="problemlogin">Problem att logga in?</a>
+            </Link>
+          </p> 
+        </div>
+      </form>   
 
       {/* <ul>
         {users.map((user) => {
@@ -67,13 +81,7 @@ const Login = () => {
   
 }
 
-function isEmailValid(email) {
-  const emailRegexp = new RegExp(
-    /^[a-zA-Z0-9][\-_\.\+\!\#\$\%\&\'\*\/\=\?\^\`\{\|]{0,1}([a-zA-Z0-9][\-_\.\+\!\#\$\%\&\'\*\/\=\?\^\`\{\|]{0,1})*[a-zA-Z0-9]@[a-zA-Z0-9][-\.]{0,1}([a-zA-Z][-\.]{0,1})*[a-zA-Z0-9]\.[a-zA-Z0-9]{1,}([\.\-]{0,1}[a-zA-Z]){0,}[a-zA-Z0-9]{0,}$/i
-  )
 
-  return emailRegexp.test(email)
-}
 
 // serverside code
 export async function getServerSideProps(){

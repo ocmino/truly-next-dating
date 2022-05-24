@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/signup.tsx", "pages/dashboard.jsx"  ],
+, "pages/signup.jsx", "pages/dashboard.jsx"  ],
   "exclude": [
     "node_modules"
   ]
