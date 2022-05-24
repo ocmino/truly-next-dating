@@ -9,7 +9,7 @@ export default function Femkannetecken(){
                 <Link href="/readmoredropdown"><a className="backArrow">←</a></Link>
                 <h2>Fem kännetecken</h2>
             </div>
-            <div className="fivesignscontent">
+            <div className="content">
 
                 <p> Mer tankestyrd än känslostyrd. </p>
                 <p> Ofta social och utåtriktad. </p>

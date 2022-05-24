@@ -793,7 +793,6 @@ font-style: normal;
 font-size: 16px;
 line-height: 24px;
 color:  #AA33B2;
-/* margin-top: -50px; */
 }
 .infocontent{
 font-family: 'Helvetica Neue';
@@ -803,7 +802,7 @@ font-size: 16px;
 line-height: 24px;
 margin-top: -25px;
 }
-.fivesignscontent{
+.content{
   font-family: 'Helvetica Neue';
   font-style: normal;
 
@@ -811,17 +810,6 @@ margin-top: -25px;
   line-height: 24px;
   text-align: left;
   margin-left: 1em;
-  margin-top: 2em;
-}
-.childhoodcontent{
-  font-family: 'Helvetica Neue';
-  font-style: normal;
-
-  font-size: 16px;
-  line-height: 24px;
-  text-align: left;
-  margin-left: 1em;
-  margin-right: 1em;
   margin-top: 2em;
 }
 

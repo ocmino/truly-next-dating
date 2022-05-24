@@ -7,7 +7,7 @@ export default function Andraanknytning(){
                 <Link href="/readmoredropdown"><a className="backArrow">←</a></Link>
                 <h2>Ändra anknytning?</h2>
             </div>
-            <div className="changeconnection">
+            <div className="content">
                 <br></br>
                 <p> <b>Kan man ändra sin anknytning?</b></p>
                 <p>Det korta svaret är &ldquo;Ja&rdquo;!</p>

@@ -8,7 +8,7 @@ export default function Tipsfordenundv(){
                 <Link href="/readmoredropdown"><a className="backArrow">←</a></Link>
                 <h2>6 Tips för den undvikande</h2>
             </div>
-            <div className="tip">
+            <div className="content">
                 <p><b> ● Identifiera hur du brukar tappa intresset </b>
                 <br></br>○ Agera inte på dina impulser när du får en magkänsla att det är något som är fel på din partner. Stanna upp och tänk på om detta egentligen är någon av dina strategier för att inte komma för nära personen. Är de där små defekterna du börjar uppleva kanske bara ett resultat av din relationsmodell som försöker skydda dig? Försök att hålla ut lite längre trots att det känns jobbigt!</p>
                 <p><b>● Minska fokus på ditt oberoende och fokusera mer på ömsesidigt stöd</b>

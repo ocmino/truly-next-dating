@@ -8,7 +8,7 @@ export default function Bockeromanknytning(){
                 <Link href="/readmoredropdown"><a className="backArrow">←</a></Link>
                 <h2>Böcker om anknytning</h2>
             </div>
-            <div className="books">
+            <div className="content">
                 <p><b>Tryggare i kärlek </b>- Handbok för dig med otrygg-ambivalent anknytning - En enkel och lättläst bok med många konkreta övningar och tips. Skriven speciellt för dig som har en otrygg-ambivalent anknytning.</p>
                 <p><b>Attached </b>- Den väldigt populära engelska boken om anknytning - En bok som ger dig tydliga strategier för att hantera din anknytning.</p>
                 <p><b>Hemligheten </b>- Från ögonkast till varaktig relation - Kanske den mest kända av alla svenska böcker som behandlar anknytningsteori och troligen den som fått många att få upp ögonen för detta ämne. Väldigt lättläst.</p>
