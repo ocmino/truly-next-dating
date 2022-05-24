@@ -32,7 +32,7 @@ export default function Anknytningsteori() {
 
            
                 <div className="headline2">
-                    <h6><b>Olika typer av anknytning</b></h6>
+                    <h6><b>Olika typer av anknytning </b></h6>
                 </div>
  
                 <div className="headline3">   
