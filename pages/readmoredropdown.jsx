@@ -74,7 +74,7 @@ export default function ReadMoreDropDown() {
                  <br></br>
                 <ul className="Links">
                     <GiBookmarklet className="Icons"/>
-                    <Link href="/anknytningsteori" className="DropDownMenu">
+                    <Link href="/bockeromanknytning" className="DropDownMenu">
                     <a className="DropDownMenu">Böcker om anknytning</a>
                     </Link>
                     <p className="Line">______________________________________________</p>
