@@ -20,7 +20,7 @@ export default function ReadMoreDropDown() {
 
                 <Link href="/loginpage"><a className="backArrow1">←</a></Link>
 
-                <Link href="/profilePage"><a className="profileX">X</a></Link>
+                <Link href="/swipePage"><a className="profileX">X</a></Link>
 
                 <h1 className="logo">truly</h1>
                 

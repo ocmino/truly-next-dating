@@ -526,6 +526,33 @@ color: white;
   margin-top: 90%;
 }
 
+.swipeHeader {
+  display: flex;
+  height: 100px;
+  margin-top: 45px;
+}
+
+#profileLogo {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+#swipeLogo {
+  margin-top: 0px;
+  margin-left: 100px;
+  margin-right: 80px;
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #212939;
+}
+
+#chattLogo {
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
 .readMoreLink {
   text-decoration: underline;
   color: black;
