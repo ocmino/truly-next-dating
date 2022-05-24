@@ -32,12 +32,27 @@ export default function swipePage() {
                     </a>
                 </Link>
             </header>
-            
-               
-                    
 
-              <img src="https://cdn.stocksnap.io/img-thumbs/960w/woman-portrait_EJ3DVIGPDX.jpg" width={376} height={426}/>
+            <img 
+            src="https://cdn.stocksnap.io/img-thumbs/960w/woman-portrait_EJ3DVIGPDX.jpg" 
+            width={376} 
+            height={426}/>
+
+            <div className="likeButtons">
+
+                <img className="likeButton"
+                src="https://uploads-ssl.webflow.com/5693d1cffeb451344a7b692f/5693d1d0feb451344a7b6972_close.svg" 
+                width={40} 
+                height={40} />
         
+                <img className="likeButton"
+                src="https://images.emojiterra.com/twitter/v12.1.5/512px/1f49c.png" 
+                width={40} 
+                height={40}/>
+            
+            </div>
+            
+            
 
         </div>
     )

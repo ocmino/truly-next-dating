@@ -553,6 +553,19 @@ color: white;
   margin-right: 10px;
 }
 
+.likeButtons{
+  margin-left: 23%; 
+  
+}
+
+.likeButton {
+  margin-right: 50px;
+  padding: 20px;
+  border-radius: 35px;
+  background-color: #e5e2e2;
+}
+
+
 .readMoreLink {
   text-decoration: underline;
   color: black;
@@ -842,3 +855,4 @@ margin-top: -25px;
   
 
 }
+
