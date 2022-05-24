@@ -92,7 +92,7 @@ export default function ReadMoreDropDown() {
                  <br></br>
                 <ul className="Links">
                     <RiSwordLine className="Icons"/>
-                    <Link href="/anknytningsteori" className="DropDownMenu">
+                    <Link href="/ovningar" className="DropDownMenu">
                     <a className="DropDownMenu">Övningar som utmanar</a>
                     </Link>
                     <p className="Line">______________________________________________</p>
