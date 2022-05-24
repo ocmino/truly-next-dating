@@ -83,7 +83,7 @@ export default function ReadMoreDropDown() {
                  <br></br>
                 <ul className="Links">
                     <AiOutlineBulb className="Icons"/>
-                    <Link href="/anknytningsteori" className="DropDownMenu">
+                    <Link href="/tipsfordenundvikande" className="DropDownMenu">
                     <a className="DropDownMenu">6 tips för den undvikande</a>
                     </Link>
                     <p className="Line">______________________________________________</p>
