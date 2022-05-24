@@ -788,6 +788,8 @@ margin-top: -25px;
 .backArrow{
   color: black;
   margin-left: -15em;
+  text-decoration: none;
+  background: rgba(95, 69, 100, 0.2)
 }
 
 .backArrow1{
