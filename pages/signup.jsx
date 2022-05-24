@@ -4,17 +4,12 @@ import logo from '../public/static/truly-logo.png'
 import React, { useState } from "react";
 import { firestore } from "../utils/firebase";
 import axios from "axios";
+import { useRouter } from "next/router";
 
 export default function SignUp({ users }) {
 
-
-const Login = () => {
-  const [data, setData] = useState({
-    email: '',
-    password: '',
-  })
-
-}
+const [isLoading, setIsLoading] = useState(false)
+const router = useRouter()
 
 
 
@@ -26,9 +21,17 @@ const body = Object.fromEntries(formData.entries())
 console.log(body)
 
 
-
+setIsLoading(true)
 axios.post('/api/users', body).then((res) => {
   console.log(res)
+  const userId = res.data.id //user id
+  router.push(('/loginpage'))
+})
+.catch((err) => {
+  console.log(err)
+})
+.finally(() => {
+  setIsLoading(false)
 })
 
 
@@ -50,7 +53,7 @@ axios.post('/api/users', body).then((res) => {
         <div>
           <p><input type="email" name="email" id="email" className="input-email" placeholder="E-post"></input></p>
           <p><input type="password" name="password" id="password" className="input-password" placeholder="Lösenord"></input></p>
-          <p><button type="submit" className="loginButton">Skapa konto</button></p>
+          <p><button disabled={isLoading} type="submit" className="loginButton">Skapa konto</button></p>
           
           <p>
             <Link href="/contactform">
