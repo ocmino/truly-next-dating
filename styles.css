@@ -795,6 +795,11 @@ margin-top: -25px;
   margin-left: 1.5em;
   font-family: 'Helvetica Neue';
   font-size: 20px;
+  text-decoration: none;
+  background: rgba(95, 69, 100, 0.2)
+ 
+ 
+  
 }
 
 .profileX {
@@ -803,5 +808,8 @@ margin-top: -25px;
   margin-left: 14em;
   font-family: 'Helvetica Neue';
   font-size: 20px;
+   text-decoration: none;
+  background: rgba(95, 69, 100, 0.2)
+  
 
 }
