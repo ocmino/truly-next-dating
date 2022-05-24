@@ -65,7 +65,7 @@ export default function ReadMoreDropDown() {
                 <br></br>
                 <ul className="Links">
                     <GiDynamite className="Icons"/>
-                    <Link href="/anknytningsteori" className="DropDownMenu">
+                    <Link href="/triggadanknytning" className="DropDownMenu">
                     <a className="DropDownMenu">När triggas anknytning</a>
                     </Link>
                     <p className="Line">______________________________________________</p>
